@@ -1,10 +1,10 @@
 import React from "react";
 import { MemeCard } from "../Components/Card";
 
-const Homepage = () => {
+export const Homepage = () => {
     return (
         <div>
-
+            <MemeCard/>
         </div>
     );
 };
