@@ -1,9 +1,9 @@
 import './App.css';
 import { Route, Routes } from 'react-router-dom';
-
+import 'bootstrap/dist/css/bootstrap.css';
 function App() {
   return (
-    <div className="App">
+    <div className="container">
       <h1>Meme Generator</h1>
       <Routes>
 
