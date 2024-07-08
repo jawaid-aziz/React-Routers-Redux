@@ -11,7 +11,7 @@ export const Text = () => {
             {
                 editMode ? ( <input onDoubleClick={e => setEditMode(false)} value={val} onChange={(e) => setVal(e.target.value)} />
             ) : (
-                <h1 onDoubleClick={e=> setEditMode(true)} >{val}</h1>
+                <h1 style={{fontSize:"larger"}} onDoubleClick={e=> setEditMode(true)} >{val}</h1>
             )} 
         </Draggable>
     );
