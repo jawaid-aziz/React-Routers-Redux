@@ -6,7 +6,7 @@ import { Homepage } from './Pages/Home';
 function App() {
   return (
     <div className="container">
-      <h1>Meme Generator</h1>
+      <h1>Memes Generator</h1>
       <Routes>
         <Route path='/' element={<Homepage/>} />
       </Routes>
