@@ -1,4 +1,4 @@
-import { createStore } from "redux";
+import { legacy_createStore } from "redux";
 
 const reducer = (state = 0, action) => {
     switch(action.type) {
@@ -8,4 +8,4 @@ const reducer = (state = 0, action) => {
     }
 }
 
-export const store = createStore();
+export const store = legacy_createStore(reducer);
