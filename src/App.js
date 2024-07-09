@@ -1,9 +1,7 @@
 import './App.css';
 import { Route, Routes } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.css';
-import { Homepage } from './Pages/Home';
-import { EditPage } from './Pages/Edit';
-import { Link } from 'react-router-dom';
+
 
 function App() {
   return (
